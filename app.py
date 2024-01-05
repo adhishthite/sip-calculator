@@ -18,10 +18,9 @@ st.set_page_config(
     page_title="SIP Return Calculator",
     page_icon=":moneybag:",
     menu_items={
-        "About": "This is a simple calculator to calculate the returns on your SIP investments."
-                 "Made with ❤️ by [Adhish](https://linkedin.com/in/adhish-thite) in Pune 🇮🇳\n\n"
-    }
-
+        "About": "A simple calculator to calculate the returns on your SIP investments."
+        "Made with ❤️ by [Adhish](https://linkedin.com/in/adhish-thite) in Pune 🇮🇳\n\n"
+    },
 )
 
 # Streamlit UI components
@@ -57,7 +56,7 @@ with col4:
 st.markdown("---")
 
 # Dynamic calculation without a button
-auto_update = st.checkbox('Auto-update on input change')
+auto_update = st.checkbox("Auto-update on input change")
 
 if auto_update:
     df = calculate_sip_returns(
