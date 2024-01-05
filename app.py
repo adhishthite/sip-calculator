@@ -13,7 +13,16 @@ from calculator import calculate_sip_returns
 currency = "₹"  # Indian Rupee
 
 # Streamlit page configuration
-st.set_page_config(layout="wide")
+st.set_page_config(
+    layout="wide",
+    page_title="SIP Return Calculator",
+    page_icon=":moneybag:",
+    menu_items={
+        "About": "This is a simple calculator to calculate the returns on your SIP investments."
+                 "Made with ❤️ by [Adhish](https://linkedin.com/in/adhish-thite) in Pune 🇮🇳\n\n"
+    }
+
+)
 
 # Streamlit UI components
 st.markdown(
