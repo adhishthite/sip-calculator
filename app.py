@@ -16,7 +16,7 @@ currency = "₹"  # Indian Rupee
 st.set_page_config(
     layout="wide",
     page_title="SIP Return Calculator",
-    page_icon=":moneybag:",
+    page_icon="💰",
     menu_items={
         "About": "A simple calculator to calculate the returns on your SIP investments."
         "Made with ❤️ by [Adhish](https://linkedin.com/in/adhish-thite) in Pune 🇮🇳\n\n"
